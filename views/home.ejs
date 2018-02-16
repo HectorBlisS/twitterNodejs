@@ -1,0 +1,10 @@
+<ul>
+   <% tweets.forEach(function(tweet){ %>
+        <li>
+            <span><%=tweet.created_at%></span>
+            <p><%=tweet.user_name%></p>
+            <p><%=tweet.body%></p>
+        </li>
+   <% }) %>
+
+</ul>
